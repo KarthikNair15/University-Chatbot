@@ -1,3 +1,5 @@
+# Use your personal API Key to run this code
+
 import os
 import google.generativeai as genai
 
