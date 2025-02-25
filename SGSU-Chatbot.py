@@ -1,4 +1,4 @@
-# Use your personal API Key to run this code
+# Use your personal API Key to run this code, if you don't have the key then create the key on Google AI Studio
 
 import os
 import google.generativeai as genai
@@ -8,7 +8,6 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Create the model
 generation_config = {
   "temperature": 1,
   "top_p": 0.95,
